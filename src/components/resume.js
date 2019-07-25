@@ -8,7 +8,10 @@ class Resume extends Component {
     render() {
         return(
             <div>
-                <Grid>
+
+                <embed src="alex_davenport_cv.pdf" width="100%" height="1500px" />
+
+                {/* <Grid>
 
                     <Cell col={4}>
                         <div style={{ textAlign: "center" }}>
@@ -77,7 +80,7 @@ class Resume extends Component {
                         />
 
                     </Cell>
-                </Grid>
+                </Grid> */}
             </div>
         )
     }

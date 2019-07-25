@@ -3,11 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material/card": "^3.1.0",
+    "lodash": "^4.17.15",
+    "nuka-carousel": "^4.5.9",
     "react": "^16.8.6",
+    "react-awesome-slider": "^1.0.1",
     "react-dom": "^16.8.6",
+    "react-image-gallery": "^0.8.18",
+    "react-items-carousel": "^2.3.7",
     "react-mdl": "^1.11.0",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "react-slick": "^0.24.0"
   },
   "scripts": {
     "start": "react-scripts start",
