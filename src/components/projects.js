@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardActions, CardMedia, CardMenu, CardText, CardTitle, Button, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardActions, CardText, CardTitle, Button } from 'react-mdl';
 import Carousel from 'nuka-carousel';
 
 class Projects extends Component {
@@ -21,14 +21,14 @@ class Projects extends Component {
                             <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
                                 {/* <CardTitle style={{color: '#000', height: '176px', background: 'url(https://proxy.duckduckgo.com/iu/?u=https%3A%2F%2Fksr-ugc.imgix.net%2Fassets%2F017%2F931%2F632%2Fbd12f0dccad621ff449b51c19d4367a7_original.png%3Fcrop%3Dfaces%26w%3D1552%26h%3D873%26fit%3Dcrop%26v%3D1503930745%26auto%3Dformat%26q%3D92%26s%3Dad594c03806b5ec2fc2855af65e96c70&f=1) center / cover'}} /> */}
                                 <Carousel style={{height: '185px'}}>
-                                    <img src="/images/odyssey.png" />
-                                    <img src="/images/map.png" />
-                                    <img src="/images/wendigo_draugr.png" />
-                                    <img src="/images/ghost_kappa.png" />
-                                    <img src="/images/ker_kappa.png" />
-                                    <img src="/images/dragonturtle_info.png" />
-                                    <img src="/images/golem_info.png" />
-                                    <img src="/images/bluecap_info.png" />
+                                    <img src="/images/odyssey.png" alt="carousel-img" />
+                                    <img src="/images/map.png" alt="carousel-img" />
+                                    <img src="/images/wendigo_draugr.png" alt="carousel-img" />
+                                    <img src="/images/ghost_kappa.png" alt="carousel-img" />
+                                    <img src="/images/ker_kappa.png" alt="carousel-img" />
+                                    <img src="/images/dragonturtle_info.png" alt="carousel-img" />
+                                    <img src="/images/golem_info.png" alt="carousel-img" />
+                                    <img src="/images/bluecap_info.png" alt="carousel-img" />
                                 </Carousel>
                                 <CardText>
                                     A location based game where players explore the real world, capturing and training monsters from various mythologies to battle each other.
@@ -151,7 +151,7 @@ class Projects extends Component {
                                     Take a look at the code for this website here.
                                 </CardText>
                                 <CardActions border>
-                                    <a href="https://github.com/dportology/MPI_Orbital_Simulation" rel="noopener noreferrer" target="_blank">
+                                    <a href="https://github.com/dportology/portfolio-site" rel="noopener noreferrer" target="_blank">
                                         <Button colored>Github</Button>
                                     </a>
                                 </CardActions>
