@@ -62,11 +62,10 @@
   padding: 8px;
 }
 
-.projects-grid img {
-  max-width: 100%;
-  max-height: 100%;
-  object-fit: contain;
-  height: 185px;
+.Carousel img {
+  height: 100%;
+  width: auto;
+  display: block;
 }
 
 .contact-body {

@@ -9,6 +9,7 @@
     "react": "^16.8.6",
     "react-awesome-slider": "^1.0.1",
     "react-dom": "^16.8.6",
+    "react-full-screen": "^0.2.4",
     "react-image-gallery": "^0.8.18",
     "react-items-carousel": "^2.3.7",
     "react-mdl": "^1.11.0",
