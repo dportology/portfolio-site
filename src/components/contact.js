@@ -9,7 +9,7 @@ class Contact extends Component {
                     <Cell col={6}>
                         <h2>Alex Davenport</h2>
                         <img 
-                            src="https://dailystoic.com/wp-content/uploads/2016/07/seneca.jpg"
+                            src="/images/me.jpg"
                             alt="avatar"
                             style={{ height: '250px' }}
                         />
