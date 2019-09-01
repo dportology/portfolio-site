@@ -164,6 +164,24 @@ class Projects extends Component {
                             </Card>
                         </Cell>
                     </Grid>
+
+                    <Grid>
+                        <Cell col={4}>
+                            {/* Project 4 */}
+                            <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
+                                <CardTitle style={{color: '#000', height: '185px', background: 'url(https://imgur.com/EbqRp64.png) center / cover'}}>Flask App Engine Todo List</CardTitle>
+                                <CardText>
+                                    Todo list built in Flask, deployed to the Google App Engine. Uses Authentication and Google Datastore.
+                                </CardText>
+                                <CardActions border>
+                                    <a href="https://github.com/dportology/flask_appengine_todo" rel="noopener noreferrer" target="_blank">
+                                        <Button colored>Github</Button>
+                                    </a>
+                                </CardActions>
+                            </Card>
+                        </Cell>
+
+                    </Grid>
                 </div>
             )
         }
